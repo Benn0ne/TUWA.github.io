@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website TUWA Kelas King</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <video autoplay loop muted id="bg-video">
+    <source src="assets/videos/background1.mp4" type="video/mp4" />
+  </video>
+
+  <div class="overlay" id="overlay">
+    <div id="section1" class="section active">
+      <img src="assets/stickers/sticker1.jpg" alt="Sticker 1" class="sticker" />
+      <p class="text-large">Hallo TUWA</p>
+      <button onclick="nextSection(1)">Next</button>
+    </div>
+    <div id="section2" class="section">
+      <img src="assets/stickers/sticker2.jpg" alt="Sticker 2" class="sticker" />
+      <p class="text-large">Selamat ya udah dapet gelar SDs</p>
+      <button onclick="nextSection(2)">Next</button>
+    </div>
+    <div id="section3" class="section">
+      <img src="assets/stickers/sticker3.jpg" alt="Sticker 3" class="sticker" />
+      <p class="text-large">Coba pencet ini dong Tuwir.</p>
+      <button onclick="triggerSurprise()">Pencet Ini! 🤗</button>
+    </div>
+  </div>
+
+  <div id="section4" class="section">
+    <div class="background-container">
+      <img src="assets/background abu.jpg" class="background-image" />
+      <p class="text-large2">Yaudah gitu ajah susah anj ngoding</p>
+    </div>
+  </div>
+
+  <div id="fireworks-container">
+    <video id="fireworks">
+      <source src="assets/videos/fireworks.mp4" type="video/mp4" />
+    </video>
+    <p id="congrats-text">CONGRATSSS PAIRUZZ</p>
+  </div>
+
+  <audio id="bg-audio">
+    <source src="assets/audio/bg-audio.mp3" type="audio/mp3" />
+  </audio>
+  <audio id="getout-audio">
+    <source src="assets/audio/getout.mp3" type="audio/mp3" />
+  </audio>
+
+  <div class="made-by">Made By Sinsk_07</div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
